@@ -1,16 +1,38 @@
-# Virtual environment
-venv/
-env/
-.venv/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Environment variables (never push secrets!)
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# IDE folders
+# Environment Variables (Keep the example files trackable)
+.env.*
+!.env.example
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# IDE & OS specific files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package Management (uv caches and builds)
+.ruff_cache/
+dist/
+build/
+*.egg-info/
