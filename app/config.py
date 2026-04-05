@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = ""
     CORS_ORIGINS: str = ""
     TOKEN_EXPIRE_HOURS: int = None
+    PERSONAL_ACCESS_TOKEN : str = None
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
