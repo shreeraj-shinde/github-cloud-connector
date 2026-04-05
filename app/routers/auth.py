@@ -8,7 +8,7 @@ async def connect_github():
     return await GitHubService.login()
 
     
-@router.get("/callback")
+@router.get("/callback", include_in_schema=False)
 async def process_callback(code:str):
     return await GitHubService.get_access_token(code)
 
