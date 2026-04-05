@@ -265,3 +265,8 @@ All generic exceptions, API integration errors, and business rule collisions wil
 | `400 Bad Request`             | Structural validation failed directly via GitHub API. |
 | `422 Unprocessable Entity`    | Missing required fields handled natively by Pydantic. |
 | `500 Internal Server Error`   | Underlying code crash, missing attributes handling.   |
+
+---
+
+## Demo Video Link 👇
+[Demo Video](https://drive.google.com/file/d/14kBdZaMsiBinrWdenExjk5lUoYpWz5j2/view?usp=drive_link)
